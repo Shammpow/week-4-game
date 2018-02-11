@@ -1,0 +1,23 @@
+body {
+    background-image: url("../images/Cave_Background.jpg");
+    background-size: cover
+}
+
+.crystals {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.crystal-image {
+    height: 100%;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    color: white;
+}
+
+h1 {
+    text-decoration: underline;
+}
