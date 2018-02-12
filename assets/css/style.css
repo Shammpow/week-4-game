@@ -1,0 +1,10 @@
+.crystals {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.crystal-image {
+    height: 100%;
+    width: 100%;
+}
