@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+body {
+    background-image: url("../images/Cave_Background.jpg");
+    background-size: cover
+}
+
+>>>>>>> origin/master
 .crystals {
     height: 100px;
     width: 100px;
@@ -7,4 +15,16 @@
 .crystal-image {
     height: 100%;
     width: 100%;
+<<<<<<< HEAD
 }
+=======
+}
+
+h1, h2, h3 {
+    color: white;
+}
+
+h1 {
+    text-decoration: underline;
+}
+>>>>>>> origin/master
