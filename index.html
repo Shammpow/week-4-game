@@ -6,68 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/reset.css">
-<<<<<<< HEAD
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <title>Document</title>
-</head>
-
-<body>
-
-    <h1>Points Accrued:</h1>
-    <div class="crystals">
-        <img id="crystal-1" class="crystal-image" src="assets/images/crystal.jpg">
-    </div>
-    <div class="crystals">
-        <img id="crystal-2" class="crystal-image" src="assets/images/crystal.jpg">
-    </div>
-    <div class="crystals">
-        <img id="crystal-3" class="crystal-image" src="assets/images/crystal.jpg">
-    </div>
-    <div class="crystals">
-        <img id="crystal-4" class="crystal-image" src="assets/images/crystal.jpg">
-    </div>
-
-    <script type="text/javascript" src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
-=======
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
     <title>Crystal Collector</title>
 </head>
 
 <body>
-    <h1>Crystal Collector!</h1>
-    <h2>Score to Hit:
-        <span id="hitscore"></span>
-    </h2>
-    <h2>Your Score:
-        <span id="myscore"></span>
-    </h2>
-    <h3>Wins:
-        <span id="wincount"></span>
-    </h3>
-    <h3>Losses:
-        <span id="losscount"></span>
-    </h3>
+    <div class="container">
+        <div class="row">
+            <div id="header">
+                <h1>Crystal Collector!</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div id="objective">
+                    <h2>Your Objective</h2>
+
+                    <p>
+                        Each crystal has a random value. Your goal is to reach the target value listed below. There's no strategy to this, just pure
+                        luck!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <h2>Score to Hit:
+            <span id="hitscore"></span>
+        </h2>
+        <h2>Your Score:
+            <span id="myscore"></span>
+        </h2>
+        <h3>Wins:
+            <span id="wincount"></span>
+        </h3>
+        <h3>Losses:
+            <span id="losscount"></span>
+        </h3>
+    </div>
     <div class="container">
         <div class="crystals row">
-            <img class="crystal-image" src="assets/images/amethyst-crystal.jpg">
-            <img class="crystal-image" src="assets/images/Opal-crystal.jpg">
-            <img class="crystal-image" src="assets/images/Peridot-crystal.jpg">
-            <img class="crystal-image" src="assets/images/Ruby-crystal.jpg">
+            <img id="amethyst" class="crystal-image" src="assets/images/amethyst-crystal.jpg">
+            <img id="opal" class="crystal-image" src="assets/images/Opal-crystal.jpg">
+            <img id="peridot" class="crystal-image" src="assets/images/Peridot-crystal.jpg">
+            <img id="ruby" class="crystal-image" src="assets/images/Ruby-crystal.jpg">
         </div>
-    </div>
-
-
-
-
-    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-    <script src="assets/javascript/game.js"></script>
->>>>>>> origin/master
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+        <script src="assets/javascript/game.js"></script>
 </body>
 
 </html>
